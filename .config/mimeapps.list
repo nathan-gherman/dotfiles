@@ -1,5 +1,7 @@
 [Default Applications]
 application/pdf=org.gnome.Papers.desktop
+image/png=org.gnome.Loupe.desktop
 
 [Added Associations]
 application/pdf=org.gnome.Papers.desktop;
+image/png=org.gnome.Loupe.desktop;
