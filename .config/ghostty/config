@@ -6,5 +6,8 @@ window-padding-y = 20
 cursor-style = block
 shell-integration-features = false
 
-theme = nightfly
+background-opacity = 0.9
+background-blur = true
+
+theme = ayu-dark
 
