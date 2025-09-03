@@ -11,19 +11,28 @@
     "backlight",
     "battery",
     "network",
-    "cpu",
+    //"cpu",
     "memory",
-    "custom/lock",
-    "custom/power"
+    "custom/lock"
+    //"custom/power"
   ],
 
+  "custom/cava-internal": {
+    "exec": "sh ~/.config/waybar/scripts/Cava.sh",
+    "format": "{}",
+    "tooltip": false,
+    "on-click": "swaymsg reload & pkill waybar & waybar",
+    "layer": "below",
+    "output": "all"
+  },
+  
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
     "format-icons": {
       "active": "",
       "default": ""
     }, 
-    "persistent-workspaces": {"eDP-1": 5}
+    "persistent-workspaces": {"eDP-1": 3}
   },
 
   "tray": {
@@ -31,15 +40,16 @@
     "spacing": 10
   },
 
-  "custom/music": {
+  /*"custom/music": {
     "format": "  {}",
     "escape": true,
     "interval": 5,
     "tooltip": false,
+    "exec": "playerctl metadata --format='{{ title }}'",
     "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
     "on-click": "playerctl play-pause",
     "max-length": 50
-  },
+  },*/
 
   "clock": {
     "timezone": "Europe/Bucharest",
@@ -75,24 +85,36 @@
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": " ",
+    "format-muted": " MUTE",
     "format-icons": {
-      "default": ["", " ", " "]
+      "default": [" ", " "]
     },
     "on-click": "pavucontrol"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": {
+      "charging": [
+        "󰢜","󰂆","󰂇","󰂈","󰢝","󰂉","󰢞","󰂊","󰂋","󰂅"
+      ],
+      "default": [
+        "󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"
+      ]
+    },
+    /*"format-full": "Charged ",*/
+    "interval": 5,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "tooltip": true
   },
 
   "custom/power": {
     "tooltip": false,
     "on-click": "wlogout &",
     "format": "⏻"
-  },
-
-  "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 1800,
-    "exec": "~/.config/waybar/scripts/weather-stats/main",
-    "return-type": "json"
   }
+
 }

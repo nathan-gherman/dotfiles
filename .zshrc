@@ -55,6 +55,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls --color'
 alias vim='nvim'
+alias nv='nvim'
 alias grep='grep --color=auto'
 alias locate='plocate'
 
