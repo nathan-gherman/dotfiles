@@ -1,0 +1,35 @@
+00:00:00.190913 VirtualBox GUI VM Selector Window 7.2.0 r170228 linux.amd64 (Aug 13 2025 22:06:27) release log
+00:00:00.190914 Log opened 2025-09-06T15:59:59.166180000Z
+00:00:00.190914 Build Type: release
+00:00:00.190918 OS Product: Linux
+00:00:00.190919 OS Release: 6.16.4-arch1-1
+00:00:00.190920 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 28 Aug 2025 19:49:53 +0000
+00:00:00.190947 DMI Product Name: ASUS TUF Gaming A15 FA507NUR_FA507NUR
+00:00:00.190957 DMI Product Version: 1.0
+00:00:00.190966 Firmware type: UEFI
+00:00:00.191071 Secure Boot: Disabled
+00:00:00.191118 Host RAM: 15803MB (15.4GB) total, 10804MB (10.5GB) available
+00:00:00.191121 Executable: /opt/VirtualBox/VirtualBox
+00:00:00.191122 Process ID: 62005
+00:00:00.191122 Package type: LINUX_64BITS_GENERIC
+00:00:00.191144 Qt version: 6.8.0
+00:00:00.191753 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.193976 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.193990 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.102453 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 959x537 x 800x800
+00:02:04.146878 GUI: UIMediumEnumerator: Medium with key={{1c04c596-52af-4e06-b594-912f590cac50}} created
+00:02:04.257628 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:50.590440 GUI: UIMediumEnumerator: Medium with key={{ead2dd27-bcf9-4c2a-ba24-880772132d2b}} created
+00:02:50.630899 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:10.256788 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:10.291986 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:27.744226 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:05:10.269049 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:05:53.805205 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:00.304702 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:08.406477 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:09.398340 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:11.399006 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:37.380880 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:38.685670 GUI: UICommon: Handling aboutToQuit request..
+00:06:39.221289 GUI: UICommon: aboutToQuit request handled!
