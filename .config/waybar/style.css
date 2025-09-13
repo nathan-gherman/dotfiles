@@ -1,6 +1,6 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 18px;
+  font-size: 15px;
   min-height: 0;
   padding-right: 2px;
   padding-left: 2px;
@@ -11,6 +11,13 @@
   background: transparent;
   color: #c6d0f5;
   margin: 2px 2px;
+}
+
+#custom-uptime {
+  border-radius: 5px;
+  background: #101010;
+  margin: 5px; 
+  padding: 0.5rem 1rem;
 }
 
 #workspaces {
@@ -53,11 +60,14 @@ button {
 #cpu,
 #memory,
 #custom-lock,
-#custom-power,
-#custom-uptime {
+#custom-power {
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;
+}
+
+#memory {
+  border-radius: 0px 5px 5px 0px;
 }
 
 #clock {

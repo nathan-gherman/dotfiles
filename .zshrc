@@ -53,19 +53,21 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
+
+#Options: ls --color, rsls, lsd
+alias ls='lsd'
+
+# Options: tre, alder
+alias tree='gtree'
+
+alias cat='bat'
 alias vim='nvim'
-alias nv='nvim'
 alias grep='grep --color=auto'
 alias locate='plocate'
-
 export MANPAGER='nvim +Man!'
-export HYPRSHOT_DIR="$HOME/Pictures/screenshots"
 
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
-# Created by `pipx` on 2025-08-27 19:34:29
-export PATH="$PATH:/home/nathan/.local/bin"

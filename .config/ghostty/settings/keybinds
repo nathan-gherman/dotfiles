@@ -1,0 +1,9 @@
+#keybind = trigger=action
+
+# SCROLL
+keybind = ctrl+up=scroll_page_up
+keybind = ctrl+down=scroll_page_down
+
+# SELECTION
+
+# COPY & PASTE

@@ -1,20 +1,19 @@
 {
+  //"height": 0, 
+  "width": 1920,
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/uptime","hyprland/workspaces"],
 
   "modules-center": ["clock"],
 
   "modules-right": [
     "pulseaudio",
-    //"custom/uptime",
     "backlight",
     "battery",
     "network",
-    //"cpu",
     "memory",
     "custom/lock"
-    //"custom/power"
   ],
 
   "custom/cava-internal": {
@@ -40,7 +39,7 @@
     "spacing": 10
   },
 
-  /*"custom/music": {
+  "custom/music": {
     "format": "  {}",
     "escape": true,
     "interval": 5,
@@ -49,7 +48,7 @@
     "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
     "on-click": "playerctl play-pause",
     "max-length": 50
-  },*/
+  },
 
   "clock": {
     "timezone": "Europe/Bucharest",
@@ -102,7 +101,7 @@
         "󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"
       ]
     },
-    /*"format-full": "Charged ",*/
+    "format-full": "Charged ",
     "interval": 5,
     "states": {
       "warning": 20,

@@ -1,13 +1,12 @@
-font-size = 18
-
-window-padding-x = 20
-window-padding-y = 20
-
+font-size = 16
+theme = ayu-dark
 cursor-style = block
 shell-integration-features = false
-
-background-opacity = 0.9
+window-padding-x = 20
+window-padding-y = 20
 background-blur = true
+background-opacity = 0.9
 
-theme = ayu-dark
-
+config-file = ?~/.config/ghostty/settings/keybinds
+#config-file = 
+#config-file = 
